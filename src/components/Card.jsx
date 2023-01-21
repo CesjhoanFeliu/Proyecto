@@ -10,9 +10,7 @@ const Card = ({ name, img, title, alcoholic }) => {
         <span className="tagg tag-teal">{alcoholic}</span>
         <h4>{title}</h4>
 
-        <p className="" style={{ color: "red" }}>
-          {name}
-        </p>
+        <p>{name}</p>
       </div>
     </div>
   );

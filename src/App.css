@@ -7,7 +7,14 @@
 img {
   width: 100%;
 }
-
+p,
+h1,
+h4 {
+  color: white !important;
+}
+h4 {
+  color: #262626 !important;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -69,9 +76,6 @@ img {
 }
 .tag-teal {
   background-color: #b5d447;
-}
-.tx {
-  color: gold !important;
 }
 
 .card-body p {
