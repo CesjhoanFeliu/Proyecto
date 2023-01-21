@@ -1,16 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-import BuscarBebida from "./components/api";
-import { useEffect } from "react";
-import Buscador from "./components/Buscador";
-function App() {
-  const [count, setCount] = useState(0);
 
+import "./App.css";
+
+import Buscador from "./components/Buscador";
+
+function App() {
   return (
     <div className="App">
-      {" "}
-      <Buscador />{" "}
+      <Buscador />
     </div>
   );
 }
